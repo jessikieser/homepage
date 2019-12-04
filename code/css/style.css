@@ -1,0 +1,47 @@
+body {
+    background-color: #032;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 100px;
+}
+
+.links {
+    padding-top: 85px;
+}
+
+.footer {
+    padding-bottom: 50px;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    background-color: skyblue;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+h1 {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 500; 
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: archetype, serif;
+    font-style: italic;
+    font-size: 20px;
+    color: orangered;
+}
+
+h3 {
+    font-family: titling-gothic-fb, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+}
